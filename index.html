@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumitra Goswami</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h1 class="logo">@Sumi</h1>
+            </div>
+            <div class="menu"> 
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <p>Travel and tourism unlock the wonders of the world, inviting people to explore and immerse themselves in new environments for leisure, business, or other adventures. This vibrant global industry intertwines hospitality, transportation, and entertainment, creating a tapestry of unforgettable experiences. As a powerhouse of economic growth, it fuels job creation, cultural exchange, and community development.</p>
+            <p class="quote">Saint Augustine - "The world is a book, and those who do not travel read only one page."</p>
+            <p>I am Sumitra Goswami, a travel expert. Let me help you with your travel needs. With years of experience exploring various destinations and cultures, I can offer personalized travel advice, tips on the best places to visit, and how to make the most of your journey. Whether you're looking for a relaxing beach vacation, an adventurous mountain trek, or an immersive cultural experience, I'm here to guide you every step of the way. Let's turn your travel dreams into reality!</p>
+            <p>I am currently working at MakeMyTrip as a Holiday Expert. In my role, I specialize in creating domestic and international travel packages, assisting customers in planning their trips, and ensuring they have the best possible experience. Whether you're interested in a luxurious getaway or a budget-friendly adventure, I’m here to help you every step of the way.</p>
+            <a href="#about" class="btn">Learn More About Me</a>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="content">
+            <h2>About Me</h2>
+            <div class="profile">
+                <img src="MyPh.jpg" alt="Profile Photo">
+                <div class="info">
+                    <h3>Sumitra Goswami</h3>
+                    <p><strong>Professional Info:</strong><br>BA Graduate in Philosophy and <br>Diploma (Double Honors in International Airlines and Travel Management)<br>Work Status: MakeMyTrip (Holiday Expert)</p>
+                    <p><strong>Qualities:</strong><br>Logical and analytical analysis and Emotional Intelligence</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="achievements" id="achievements">
+        <div class="content">
+            <h2>Achievements</h2>
+            <div class="slideshow-container">
+                <div class="slide">
+                    <img src="C1.jpg" alt="Certificate 1">
+                </div>
+                <div class="slide">
+                    <img src="C2.jpg" alt="Certificate 2">
+                </div>
+                <div class="slide">
+                    <img src="C3.jpg" alt="Certificate 3">
+                </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>
+    <div id="chatbot">
+        <div id="chatbot-header">
+            <h2>Travel Assistant</h2>
+        </div>
+        <div id="chatbot-messages"></div>
+        <input type="text" id="chatbot-input" placeholder="Ask me anything..." onkeypress="if(event.key === 'Enter') sendMessage()">
+    </div>
+    <div class="contacts" id="contacts">
+        <div class="content">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <img src="contact.gif" alt="Contact Image" class="contact-img">
+                <p><strong>Phone:</strong> No. 9739105654</p>
+                <p><strong>Email:</strong> sumitragoswami8@gmail.com</p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sumitragoswami" target="_blank">LinkedIn Profile</a></p>
+                <p><strong>WhatsApp:</strong> <a href="https://wa.me/9739105654" target="_blank">Chat on WhatsApp</a></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
